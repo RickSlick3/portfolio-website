@@ -21,6 +21,9 @@ export default {
         'white': '3px 3px 0 #fff', 
       }
     },
+    gridTemplateColumns: {
+      'auto': 'repeat(auto-fit, minmax(200px, 1fr))',
+    }
   },
   plugins: [],
 };
