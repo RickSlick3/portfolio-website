@@ -17,6 +17,7 @@ const Projects = () => {
             </p>
 
             <div className='grid grid-cols-auto my-10 gap-5'>
+                
                 {workData.map((project, index) => (
                     <div key={index} style={{backgroundImage: `url(${project.bgImage})`}} 
                     className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'>
@@ -31,11 +32,13 @@ const Projects = () => {
                         </div>
                     </div>
                 ))}
+                
             </div>
 
-            <a href='https://github.com/RickSlick3' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500'>
+            <a href='https://github.com/RickSlick3' target='_blank' 
+                className='w-max flex items-center justify-center gap-4 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500'>
                 See More on GitHub
-                <Image src={assets.right_arrow_bold} alt='right arrow' className='w-4'/>
+                <Image src={assets.github} alt='right arrow' className='w-6'/>
             </a>
         </div>
     )
