@@ -10,7 +10,7 @@ const Resume = () => {
             {experienceData.map((experience, index) => (
                 <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                     <div className='w-full lg:w-1/4'>
-                        <h4 className='mb-2 font-semibold text-orange-0 whitespace-pre-wrap'>
+                        <h4 className='mb-2 font-bold text-orange-0 whitespace-pre-wrap'>
                             {experience.year}
                         </h4>
                     </div>
@@ -26,7 +26,7 @@ const Resume = () => {
                         
                         <div className="flex flex-wrap">
                             {experience.technologies.map((tech, index) => (
-                                <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-orange-0 whitespace-nowrap'>
+                                <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-orange-0 whitespace-nowrap hover:-translate-y-2 duration-500 cursor-pointer'>
                                     {tech}
                                 </span>
                             ))}
@@ -55,7 +55,7 @@ const Resume = () => {
                         
                         <div className="flex flex-wrap">
                             {education.technologies.map((tech, index) => (
-                                <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-orange-0 whitespace-nowrap'>
+                                <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-orange-0 whitespace-nowrap hover:-translate-y-2 duration-500 cursor-pointer'>
                                     {tech}
                                 </span>
                             ))}

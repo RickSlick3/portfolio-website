@@ -30,9 +30,9 @@ const Projects = () => {
             </div>
 
             <a href='https://github.com/RickSlick3' target='_blank' 
-                className='w-max flex items-center justify-center gap-4 text-gray-700 bg-white border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-orange-0 duration-500'>
+                className='w-max flex items-center justify-center gap-3 text-gray-700 bg-white border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-orange-0 duration-500'>
                 See More on GitHub
-                <Image src={assets.github} alt='right arrow' className='w-6'/>
+                <Image src={assets.github} alt='right arrow' className='w-8'/>
             </a>
         </div>
     )

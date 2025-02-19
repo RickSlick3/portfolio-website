@@ -33,7 +33,7 @@ const About = () => {
                         </h3>
                         <ul className='flex items-ceter gap-3 sm:gap-5'>
                             {skillsData.map((skill, index) => (
-                                <li key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500'>
+                                <li key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500 hover:shadow-white'>
                                     <Image src={skill} alt='Tool' className='w-7 sm:w-10' />
                                 </li>
                             ))}
@@ -44,7 +44,7 @@ const About = () => {
                         </h3>
                         <ul className='flex items-ceter gap-3 sm:gap-5'>
                             {toolsData.map((tool, index) => (
-                                <li key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500'>
+                                <li key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500 hover:shadow-white'>
                                     <Image src={tool} alt='Tool' className='w-7 sm:w-10' />
                                 </li>
                             ))}

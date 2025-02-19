@@ -30,10 +30,10 @@ const Contact = () => {
             </p>
 
             <div className='flex justify-center items-center gap-10'>
-                <button onClick={copyEmail}>
+                <button onClick={copyEmail} className='flex items-center w-28 justify-center aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500'>
                     <Image src={assets.email} alt='email' className='w-20 hover:-translate-y-1 duration-500' />
                 </button>
-                <a href='https://www.linkedin.com/in/roberts-richard/' target='_blank'>
+                <a href='https://www.linkedin.com/in/roberts-richard/' target='_blank' className='flex items-center w-28 justify-center aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500'>
                     <Image src={assets.linkedin} alt='linkedin' className='w-20 hover:-translate-y-1 duration-500' />
                 </a>
             </div>
