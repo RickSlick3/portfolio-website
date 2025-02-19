@@ -1,11 +1,10 @@
-import { assets, infoList, summary, toolsData } from '@/assets/assets'
+import { assets, infoList, summary, toolsData, skillsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
 const About = () => {
     return (
-        <div id='about' className='w-ful px-[12%] py-10 scroll-mt-20'>
-            <h4 className='text-center mb-2 text-lg font-Ovo font-bold'>Introduction</h4>
+        <div id='about' className='w-full px-[12%] py-20 scroll-mt-20'>
             <h2 className='text-center text-5xl font-Ovo'>About Me</h2>
 
             <div className='container mx-auto px-4'>
@@ -19,12 +18,23 @@ const About = () => {
                             {summary}
                         </p>
 
-                        <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+                        {/* <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                             {infoList.map(({icon, title, description}, index) => (
                                 <li key={index} className='border-[0.5px] border-white rounded-xl p-4 cursor-pointer bg-white hover:bg-orange-0 hover:-translate-y-1 duration-500 hover:shadow-white'>
                                     <Image src={icon} alt={title} className='w-7 mt-3'/>
                                     <h3 className='my-4 font-bold text-gray-600 text-sm'>{title}</h3>
                                     <p className='text-gray-600 font-semibold whitespace-pre-wrap'>{description}</p>
+                                </li>
+                            ))}
+                        </ul> */}
+
+                        <h3 className='my-6 font-Ovo text-xl font-semibold'>
+                            Top Skills
+                        </h3>
+                        <ul className='flex items-ceter gap-3 sm:gap-5'>
+                            {skillsData.map((skill, index) => (
+                                <li key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500'>
+                                    <Image src={skill} alt='Tool' className='w-7 sm:w-10' />
                                 </li>
                             ))}
                         </ul>

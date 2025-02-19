@@ -21,8 +21,10 @@ const Footer = () => {
 
     return (
         <div className='mt-40'>
-            <div className='text-center font-semibold sm:flex items-center justify-between border-t-2 border-white mx-[10%] py-6'>
+            <div className='text-center font-semibold sm:flex items-center justify-between border-t-2 border-white mx-[10%] py-12'>
+                
                 <p>&copy; 2025 Richard Roberts. All Rights Reserved.</p>
+                
                 <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                     <li>
                         <button onClick={copyEmail} className='flex items-center gap-2 font-semibold text-white'>
