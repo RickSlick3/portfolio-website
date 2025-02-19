@@ -5,3 +5,11 @@
 * {
   font-family: Outfit;
 }
+
+html {
+  background-color: #232f34;
+}
+
+h1, h2, h3, h4, a, p {
+  color: #fff;
+}

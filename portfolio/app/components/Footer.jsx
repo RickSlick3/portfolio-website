@@ -4,24 +4,31 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='mt-20'>
-            <div className='text-center'>
+        <div className='mt-40'>
+            {/* <div className='text-center'>
                 <Image src={assets.logo} alt='' className='w-36 mx-auto mb-3' />
+            </div> */}
 
-                <div className='w-max flex items-center gap-2 mx-auto'>
-                    <Image src={assets.mail_icon} alt='' className='w-6' />
-                    Roberts.richard.fr@gmail.com
-                </div>
-            </div>
-
-            <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
+            <div className='text-center font-semibold sm:flex items-center justify-between border-t-2 border-white mx-[10%] py-6'>
                 <p>&copy; 2025 Richard Roberts. All Rights Reserved.</p>
                 <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                     <li>
-                        <a href='https://github.com/RickSlick3' target='_blank'>GitHub</a>
+                        <a href='https://github.com/RickSlick3' target='_blank' className='flex items-center gap-2 font-semibold'>
+                            <Image src={assets.email} alt='' className='w-6' />
+                            Email
+                        </a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/roberts-richard/' target='_blank'>LinkedIn</a>
+                        <a href='https://github.com/RickSlick3' target='_blank' className='flex items-center gap-2 font-semibold'>
+                            <Image src={assets.github_white} alt='' className='w-6' />
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://www.linkedin.com/in/roberts-richard/' target='_blank' className='flex items-center gap-2 font-semibold'>
+                            <Image src={assets.linkedin} alt='' className='w-6' />
+                            LinkedIn
+                        </a>
                     </li>
                 </ul>
             </div>

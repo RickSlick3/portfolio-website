@@ -13,7 +13,7 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Portfolio",
-  description: "",
+  description: "Technical portfolio for Richard Roberts",
 };
 
 export default function RootLayout({ children }) {
