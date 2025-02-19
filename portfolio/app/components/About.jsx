@@ -23,7 +23,7 @@ const About = () => {
                             <li key={index} className='border-[0.5px] border-white rounded-xl p-4 cursor-pointer bg-white hover:bg-orange-0 hover:-translate-y-1 duration-500 hover:shadow-white'>
                                 <Image src={icon} alt={title} className='w-7 mt-3'/>
                                 <h3 className='my-4 font-bold text-gray-600 text-sm'>{title}</h3>
-                                <p className='text-gray-600 font-semibold'>{description}</p>
+                                <p className='text-gray-600 font-semibold whitespace-pre-wrap'>{description}</p>
                             </li>
                         ))}
                     </ul>
@@ -34,7 +34,7 @@ const About = () => {
                     <ul className='flex items-ceter gap-3 sm:gap-5'>
                         {toolsData.map((tool, index) => (
                             <li key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square bg-white rounded-lg cursor-pointer hover:bg-orange-0 hover:-translate-y-1 duration-500'>
-                                <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
+                                <Image src={tool} alt='Tool' className='w-7 sm:w-10' />
                             </li>
                         ))}
                     </ul>

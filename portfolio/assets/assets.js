@@ -24,6 +24,8 @@ import github from './github.png';
 import github_white from './github-white.png';
 import email from './email.png';
 import linkedin from './linkedin.png';
+import chatgpt from './chatgpt.png';
+import azure from './azure.png';
 
 export const assets = {
     user_image,
@@ -51,7 +53,9 @@ export const assets = {
     github,
     github_white,
     email,
-    linkedin
+    linkedin,
+    chatgpt, 
+    azure
 };
 
 export const workData = [
@@ -85,11 +89,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work Experience', description: 'FOX Sports: Software Engineer Intern, The Cincinnati Insurance Companies: Software Developer Intern' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'The University of Cincinnati: Bachelors of Science in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Top Languages and Frameworks', description: 'Python,  JavaScript,  Vue.js,  React,  HTML/CSS' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work Experience', description: '1. FOX Sports: Software Engineer Intern\n2. The Cincinnati Insurance Companies: Software Developer Intern' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'The University of Cincinnati - Bachelors of Science in Computer Science' },
 ];
 
 export const toolsData = [
-    assets.vscode, assets.git
+    assets.vscode, assets.chatgpt, assets.azure, assets.github, assets.git
 ];
