@@ -21,13 +21,13 @@ const Header = () => {
 		</p> */}
 
 		<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-			<a href="#contact" className='px-10 py-3 border border-white rounded-full bg-orange-1 hover:bg-orange-0 text-white flex items-center gap-2'>
-				Contact Me
-				<Image src={assets.right_arrow_white} alt='' className='w-4'/>
-			</a>
 			<a href="/RichardRoberts_resume.pdf" download className='px-10 py-3 border rounded-full bg-orange-1 hover:bg-orange-0 border-white flex items-center gap-2 font-medium'>
 				My Resume
 				<Image src={assets.folder} alt='' className='w-4'/>
+			</a>
+			<a href="#contact" className='px-10 py-3 border border-white rounded-full bg-orange-1 hover:bg-orange-0 text-white flex items-center gap-2'>
+				Let's Connect
+				<Image src={assets.right_arrow_bold_dark} alt='' className='w-4'/>
 			</a>
 		</div>
     </div>
