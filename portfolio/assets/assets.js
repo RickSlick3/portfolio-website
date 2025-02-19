@@ -58,34 +58,31 @@ export const assets = {
     azure
 };
 
-export const workData = [
+export const projectData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'CBT GPT',
+        description: 'React, Django, OpenAI API, Prompt Engineering',
+        bgImage: '/cbtgpt.png',
+        link: 'https://github.com/thavishkagamage/Integrated-Therapy-Software',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Customer Churn',
+        description: 'Azure, Flask, Python, Pandas, Sklearn',
+        bgImage: '/churn.png',
+        link: 'https://github.com/RickSlick3/CustomerChurn-AzureWebApp',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Sockets Chat App',
+        description: 'Python, Websockets, TCP protocol',
+        bgImage: '/sockets-chat.png',
+        link: 'https://github.com/RickSlick3/SocketsChatApp',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Covid 19 Analysis',
+        description: 'Jupyter Notebook, PySpark',
+        bgImage: '/covidAnalysis.png',
+        link: 'https://github.com/RickSlick3/Databricks-COVID19',
     },
-]
-
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
 export const infoList = [

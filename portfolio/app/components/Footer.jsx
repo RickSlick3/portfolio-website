@@ -5,10 +5,6 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='mt-40'>
-            {/* <div className='text-center'>
-                <Image src={assets.logo} alt='' className='w-36 mx-auto mb-3' />
-            </div> */}
-
             <div className='text-center font-semibold sm:flex items-center justify-between border-t-2 border-white mx-[10%] py-6'>
                 <p>&copy; 2025 Richard Roberts. All Rights Reserved.</p>
                 <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>

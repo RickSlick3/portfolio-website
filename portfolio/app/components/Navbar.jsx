@@ -26,14 +26,10 @@ const navbar = () => {
 
 	return (
     <>
-		{/* <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-			<Image src={assets.header_bg_color} alt='' className='w-full'/>
-		</div> */}
-
 		<nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 
 			${isScroll ? "bg-orange-1 bg-opacity-75 backdrop-blur-lg shadow-sm" : ""}`}>
 			<a href="#top">
-				<h2 className='text-5xl font-Outfit font-extrabold'>Portfolio</h2>
+				<h2 className='block md:hidden lg:block text-5xl font-Outfit font-extrabold'>Portfolio</h2>
 			</a>
 
 			<ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 font-semibold text-xl
@@ -46,13 +42,9 @@ const navbar = () => {
 			</ul>
 
 			<div className='flex items-centered gap-4'>
-				{/* <button>
-					<Image src={assets.moon_icon} alt='' className='w-6' />
-				</button> */}
 
 				<a href="#contact" className='hidden lg:flex item-center gap-3 px-10 py-2.5 bg-orange-1 hover:bg-orange-0 border border-white rounded-full ml-4 font-bold font-Ovo'>
 					Contact 
-					{/* <Image src={assets.arrow_icon} alt='' className='w-3'/> */}
 				</a>
 
 				<button className='block md:hidden ml-3' onClick={openMenu}>
