@@ -94,3 +94,5 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.chatgpt, assets.azure, assets.github, assets.copilot, assets.git
 ];
+
+export const summary = "        I am a senior at the University of Cincinnati, set to graduate in May 2025 with a Bachelor of Science in Computer Science. I have gained practical experience as a Software Engineer Intern at FOX Sports—developing and maintaining UI components using JavaScript and Vue.js—and at The Cincinnati Insurance Companies, where I assisted in developing contract processing systems and implemented unit tests in C#. I am now looking to begin my career as a backend software engineer.";

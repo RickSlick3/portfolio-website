@@ -9,7 +9,7 @@ const Header = () => {
 			<Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
 		</div>
 
-		<h2 className='flex item-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
+		<h2 className='flex item-end gap-2 text-xl md:text-3xl mb-3 font-Ovo'>
 			Hi, I'm Richard Roberts
 		</h2>
 

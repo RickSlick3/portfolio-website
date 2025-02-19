@@ -1,4 +1,4 @@
-import { assets, infoList, toolsData } from '@/assets/assets'
+import { assets, infoList, summary, toolsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -15,8 +15,8 @@ const About = () => {
                     </div>
 
                     <div className='flex-1'>
-                        <p className='mb-10 mx-w-2xl font-Ovo'>
-                            I am a senior at the University of Cincinnati graduating with my Bachelors of Science in Computer Science in May of 2025.
+                        <p className='mb-10 mx-w-2xl font-Ovo text-xl font-semibold whitespace-pre-wrap'>
+                            {summary}
                         </p>
 
                         <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
@@ -29,7 +29,7 @@ const About = () => {
                             ))}
                         </ul>
 
-                        <h3 className='my-6 font-Ovo'>
+                        <h3 className='my-6 font-Ovo text-xl font-semibold'>
                             Tools I Use
                         </h3>
                         <ul className='flex items-ceter gap-3 sm:gap-5'>
