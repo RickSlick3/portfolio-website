@@ -36,7 +36,7 @@ const navbar = () => {
 				${isScroll ? "" : "bg-orange-1 bg-opacity-75 shadow-sm"}`}>
 				<li><a className='font-Ovo' href="#top">Home</a></li>
 				<li><a className='font-Ovo' href="#about">About</a></li>
-				<li><a className='font-Ovo' href="#resume">Resume</a></li>
+				{/* <li><a className='font-Ovo' href="#resume">Resume</a></li> */}
 				<li><a className='font-Ovo' href="#projects">Projects</a></li>
 				<li><a className='font-Ovo' href="#contact">Contact Me</a></li>
 			</ul>
@@ -62,7 +62,7 @@ const navbar = () => {
 				
 				<li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
 				<li><a className='font-Ovo' onClick={closeMenu} href="#about">About</a></li>
-				<li><a className='font-Ovo' onClick={closeMenu} href="#resume">Resume</a></li>
+				{/* <li><a className='font-Ovo' onClick={closeMenu} href="#resume">Resume</a></li> */}
 				<li><a className='font-Ovo' onClick={closeMenu} href="#projects">Projects</a></li>
 				<li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact Me</a></li>
 			</ul>

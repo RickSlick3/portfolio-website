@@ -16,9 +16,9 @@ const Header = () => {
 		<h1 className='text-3xl sm:text-6xl lg:text-[-66px] font-Ovo'>
 			Aspiring Software Engineer
 		</h1>
-		<p className='max-w-2xl mx-auto font-Ovo font-semibold'>
+		{/* <p className='max-w-2xl mx-auto font-Ovo font-semibold'>
 			This is my short quick description
-		</p>
+		</p> */}
 
 		<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
 			<a href="#contact" className='px-10 py-3 border border-white rounded-full bg-orange-1 hover:bg-orange-0 text-white flex items-center gap-2'>
@@ -27,7 +27,7 @@ const Header = () => {
 			</a>
 			<a href="/RichardRoberts_resume.pdf" download className='px-10 py-3 border rounded-full bg-orange-1 hover:bg-orange-0 border-white flex items-center gap-2 font-medium'>
 				My Resume
-				<Image src={assets.download_icon} alt='' className='w-4'/>
+				<Image src={assets.folder} alt='' className='w-4'/>
 			</a>
 		</div>
     </div>

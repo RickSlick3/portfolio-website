@@ -11,11 +11,11 @@ const Contact = () => {
         try {
             await navigator.clipboard.writeText(email);
             setAlertMessage("Email copied to clipboard!");
-            setTimeout(() => setAlertMessage(""), 5000);
+            setTimeout(() => setAlertMessage(""), 3000);
         } catch (e) {
             console.error("Failed to copy email: ", e);
             setAlertMessage("Failed to copy email.");
-            setTimeout(() => setAlertMessage(""), 5000);
+            setTimeout(() => setAlertMessage(""), 3000);
         }
     }, [email]);
 

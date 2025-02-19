@@ -4,7 +4,7 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <div id='projects' className='w-full px-[12%] py-10 scroll-mt-20'>
+        <div id='projects' className='w-full px-[12%] py-20 scroll-mt-20'>
             <h4 className='text-center mb-2 text-lg font-Ovo'>
                 My Portfolio
             </h4>
@@ -12,11 +12,11 @@ const Projects = () => {
                 My Latest Work
             </h2>
 
-            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+            {/* <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
                 This is a paragraph about my projects
-            </p>
+            </p> */}
 
-            <div className='grid grid-cols-auto my-10 gap-5'>
+            <div className='grid grid-cols-auto my-20 gap-5'>
                 
                 {projectData.map((project, index) => (
                     <div key={index} style={{backgroundImage: `url(${project.bgImage})`}} 

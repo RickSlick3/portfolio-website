@@ -10,8 +10,6 @@ import git from './git.png';
 import right_arrow_white from './right-arrow-white.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
-import download_icon from './download-icon.png';
-import sun_icon from './sun_icon.png';
 import arrow_icon from './arrow-icon.png';
 import arrow_icon_dark from './arrow-icon-dark.png';
 import menu_white from './menu-white.png';
@@ -26,6 +24,8 @@ import email from './email.png';
 import linkedin from './linkedin.png';
 import chatgpt from './chatgpt.png';
 import azure from './azure.png';
+import folder from './folder.png';
+import copilot from './copilot.png';
 
 export const assets = {
     user_image,
@@ -40,8 +40,6 @@ export const assets = {
     right_arrow_white,
     mail_icon_dark,
     profile_img,
-    download_icon,
-    sun_icon,
     arrow_icon,
     arrow_icon_dark,
     menu_white,
@@ -55,12 +53,14 @@ export const assets = {
     email,
     linkedin,
     chatgpt, 
-    azure
+    azure,
+    folder,
+    copilot
 };
 
 export const projectData = [
     {
-        title: 'CBT GPT',
+        title: 'CBT GPT (in-progress)',
         description: 'React, Django, OpenAI API, Prompt Engineering',
         bgImage: '/cbtgpt.png',
         link: 'https://github.com/thavishkagamage/Integrated-Therapy-Software',
@@ -87,10 +87,10 @@ export const projectData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Top Languages and Frameworks', description: 'Python,  JavaScript,  Vue.js,  React,  HTML/CSS' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work Experience', description: '1. FOX Sports: Software Engineer Intern\n2. The Cincinnati Insurance Companies: Software Developer Intern' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work Experience', description: 'FOX Sports: Software Engineer Intern\nThe Cincinnati Insurance Companies: Software Developer Intern' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'The University of Cincinnati - Bachelors of Science in Computer Science' },
 ];
 
 export const toolsData = [
-    assets.vscode, assets.chatgpt, assets.azure, assets.github, assets.git
+    assets.vscode, assets.chatgpt, assets.azure, assets.github, assets.copilot, assets.git
 ];
