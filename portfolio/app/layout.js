@@ -1,4 +1,4 @@
-import { Outfit, Ovo } from "next/font/google"; // Outfit, Ovo
+import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -12,8 +12,8 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Technical portfolio for Richard Roberts",
+  title: "Richard's Portfolio",
+  description: "Technical portfolio for aspiring software engineer Richard Roberts",
 };
 
 export default function RootLayout({ children }) {

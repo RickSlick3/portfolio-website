@@ -8,23 +8,14 @@ import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import git from './git.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
-import logo_dark from './logo_dark.png';
-import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
-import hand_icon from './hand-icon.png';
-import header_bg_color from './header-bg-color.png';
 import sun_icon from './sun_icon.png';
 import arrow_icon from './arrow-icon.png';
 import arrow_icon_dark from './arrow-icon-dark.png';
 import menu_white from './menu-white.png';
-import close_black from './close-black.png';
 import close_white from './close-white.png';
-import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
-import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -45,23 +36,14 @@ export const assets = {
     vscode,
     git,
     right_arrow_white,
-    logo,
-    logo_dark,
-    mail_icon,
     mail_icon_dark,
     profile_img,
     download_icon,
-    hand_icon,
-    header_bg_color,
     sun_icon,
     arrow_icon,
     arrow_icon_dark,
     menu_white,
-    close_black,
     close_white,
-    web_icon,
-    mobile_icon,
-    graphics_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
