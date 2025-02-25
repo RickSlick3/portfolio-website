@@ -29,25 +29,25 @@ const Footer = () => {
                     <li>
                         <button onClick={copyEmail} className='flex items-center gap-2 font-semibold text-white'>
                             <Image src={assets.email} alt='' className='w-6' />
-                            Email
+                            <span className='hidden lg:inline'>Email</span>
                         </button>
                     </li>
                     <li>
                         <a href='https://github.com/RickSlick3' target='_blank' className='flex items-center gap-2 font-semibold'>
                             <Image src={assets.github_white} alt='' className='w-6' />
-                            GitHub
+                            <span className='hidden lg:inline'>GitHub</span>
                         </a>
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/in/roberts-richard/' target='_blank' className='flex items-center gap-2 font-semibold'>
                             <Image src={assets.linkedin} alt='' className='w-6' />
-                            LinkedIn
+                            <span className='hidden lg:inline'>LinkedIn</span>
                         </a>
                     </li>
                     <li>
                         <a href="/RichardRoberts_resume.pdf" download className='flex items-center gap-2 font-semibold'>
                             <Image src={assets.folder} alt='' className='w-6' />
-                            Resume
+                            <span className='hidden lg:inline'>Resume</span>
                         </a>
                     </li>
                 </ul>
