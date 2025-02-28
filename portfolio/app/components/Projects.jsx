@@ -5,7 +5,7 @@ import React from 'react'
 const Projects = () => {
     return (
         <div id='projects' className='w-full px-[12%] py-20 scroll-mt-20'>
-            <h2 className='text-center text-5xl font-Ovo'>
+            <h2 className='text-center text-5xl font-Ovo leading-tight'>
                 My Latest Projects
             </h2>
 
@@ -18,8 +18,8 @@ const Projects = () => {
                 {projectData.map((project, index) => (
                     <div key={index} style={{backgroundImage: `url(${project.bgImage})`}} 
                     className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg border-2 border-white relative cursor-pointer group'>
-                        <a href={project.link}  target='_blank' className='bg-orange-1 w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
-                            <div>
+                        <a href={project.link}  target='_blank' className='bg-orange-1 w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-2 px-2 flex items-center justify-between duration-500 group-hover:bottom-7'>
+                            <div className='leading-[1.2]'>
                                 <h2 className='font-semibold text-black font-Outfit'>{project.title}</h2>
                                 <p className='text-sm text-gray-700'>{project.description}</p>
                             </div>

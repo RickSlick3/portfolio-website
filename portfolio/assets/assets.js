@@ -62,6 +62,12 @@ export const projectData = [
         link: 'https://github.com/thavishkagamage/Integrated-Therapy-Software',
     },
     {
+        title: 'Health is Wealth',
+        description: 'Next.js, JavaScript, D3, Tailwind CSS',
+        bgImage: '/data-in-the-usa.png',
+        link: 'https://health-is-wealth-gray.vercel.app/',
+    },
+    {
         title: 'Customer Churn',
         description: 'Azure, Flask, Python, Pandas, Sklearn',
         bgImage: '/churn.png',
@@ -74,8 +80,8 @@ export const projectData = [
         link: 'https://github.com/RickSlick3/SocketsChatApp',
     },
     {
-        title: 'Covid 19 Analysis',
-        description: 'Jupyter Notebook, PySpark',
+        title: 'Covid 19 Data Analysis',
+        description: 'Python, Jupyter Notebook, PySpark',
         bgImage: '/covidAnalysis.png',
         link: 'https://github.com/RickSlick3/Databricks-COVID19',
     },
