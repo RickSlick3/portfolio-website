@@ -83,7 +83,7 @@ export const projectData = [
         title: 'Covid 19 Data Analysis',
         description: 'Python, Jupyter Notebook, PySpark',
         bgImage: '/covidAnalysis.png',
-        link: 'https://github.com/RickSlick3/Databricks-COVID19',
+        link: 'https://rickslick3.github.io/Databricks-COVID19/',
     },
 ];
 
