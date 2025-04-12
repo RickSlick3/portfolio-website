@@ -56,42 +56,46 @@ export const assets = {
 
 export const projectData = [
     {
-        title: 'CBT GPT (in-progress)',
-        description: 'React, Django, OpenAI API, Prompt Engineering',
-        bgImage: '/cbtgpt.png',
+        title: 'TheraThrive',
+        skills: 'React, Django, Python, OpenAI API, PostgreSQL',
+        description: 'A React-based chat bot that delivers guided Cognitive Behavioral Therapy (CBT) sessions using the OpenAI API. The goal is to increase accessibility to mental health resources for the 280+ million people suffering from depression globally by providing an online CBT platform that allows users to engage in therapy from home, free of financial barriers and scheduling constraints.',
+        bgImage: '/therathrive.png',
         link: 'https://github.com/thavishkagamage/Integrated-Therapy-Software',
+        cta: 'View Source Code',
     },
     {
-        title: 'Health is Wealth',
-        description: 'Next.js, JavaScript, D3, Tailwind CSS',
+        title: 'Health is Wealth Dashboard',
+        skills: 'Next.js, JavaScript, D3.js, Tailwind CSS',
+        description: 'A Next.js web application to provide an interactive platform for exploring the relationship between economic status and health outcomes across U.S. counties. The dashboard allows users to navigate linked visualizations—a choropleth map, scatterplot, and histogram—that provide a multidimensional view of the data.',
         bgImage: '/data-in-the-usa.png',
         link: 'https://health-is-wealth-gray.vercel.app/',
+        cta: 'View Web App',
     },
     {
-        title: 'Customer Churn',
-        description: 'Azure, Flask, Python, Pandas, Sklearn',
+        title: 'Earthquake Data Visualization',
+        skills: 'JavaScript, D3.js, Leaflet.js',
+        description: 'An interactive vanilla JS web app that visualizes earthquake data using D3.js and Leaflet.js motivated by the need to make earthquake data more accessible, interpretable, and interactive for the general public.',
+        bgImage: '/earthquakes.png',
+        link: 'https://rickslick3.github.io/earth-beneath-us/',
+        cta: 'View Web App',
+    },
+    {
+        title: 'Customer Churn Analysis',
+        skills: 'Azure, Flask, Python, Pandas, Sklearn',
+        description: 'A Flask app that fetches data from Azure Blob Storage and uses machine learning to predict customer churn and displays results. Data for this project is hosted in an Azure SQL Server, and copied into an Azure SQL Database using a Data Factory Pipeline to be fetched by the app.',
         bgImage: '/churn.png',
         link: 'https://github.com/RickSlick3/CustomerChurn-AzureWebApp',
+        cta: 'View Source Code',
     },
     {
-        title: 'Sockets Chat App',
-        description: 'Python, Websockets, TCP protocol',
-        bgImage: '/sockets-chat.png',
-        link: 'https://github.com/RickSlick3/SocketsChatApp',
-    },
-    {
-        title: 'Covid 19 Data Analysis',
-        description: 'Python, Jupyter Notebook, PySpark',
-        bgImage: '/covidAnalysis.png',
-        link: 'https://rickslick3.github.io/Databricks-COVID19/',
+        title: 'My Portfolio Website',
+        skills: 'Next.js, Tailwind CSS, JavaScript',
+        description: 'A website I built with Next.js and hosted on Vercel to share my interests, skills, experience, and projects.',
+        bgImage: '/portfolio.png',
+        link: 'https://portfolio-richard-roberts.vercel.app/',
+        cta: 'You are here! View Source Code',
     },
 ];
-
-// export const infoList = [
-//     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Top Languages and Frameworks', description: 'Python,  JavaScript,  Vue.js,  React,  HTML/CSS' },
-//     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work Experience', description: 'FOX Sports: Software Engineer Intern\nThe Cincinnati Insurance Companies: Software Developer Intern' },
-//     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'The University of Cincinnati - Bachelors of Science in Computer Science' },
-// ];
 
 export const skillsData = [
     { icon: assets.python, name: 'Python' },
@@ -131,17 +135,17 @@ export const educationData = [
 export const experienceData = [
     { 
         year: 'May 2024  -  Oct 2024',
-        role: 'Software Engineer Co-op',
+        role: 'Student Software Engineer',
         company: 'FOX Sports',
         description: "I implemented solutions for more than 20 user stories on foxsports.com and increased the site's SEO by up to 14%. I led over 15 intern meetings to enhance interns' product knowledge and understanding of other teams' responsibilities.",
-        technologies: ['Vue.js','JavaScript', 'HTML', 'CSS', 'VS Code', 'GitHub'],
+        technologies: ['Vue.js','JavaScript', 'HTML', 'CSS', 'VS Code', 'GitHub', 'Figma', 'Agile', 'Scrum', 'Jira'],
     },
     { 
         year: 'Aug 2023  -  Dec 2023',
-        role: 'Software Engineer Co-op',
+        role: 'Student Software Engineer',
         company: 'FOX Sports',
         description: "I improved the user experience on foxsports.com for over 20 million monthly users by implementing bug fixes and developing new views and features, resulting in a 15% increase in team output.",
-        technologies: ['Vue.js','JavaScript', 'HTML', 'CSS', 'VS Code', 'GitHub'],
+        technologies: ['Vue.js','JavaScript', 'HTML', 'CSS', 'VS Code', 'GitHub', 'Figma', 'Agile', 'Scrum', 'Jira'],
     },
     { 
         year: 'Jan 2023  -  May 2023',
