@@ -94,11 +94,21 @@ export const projectData = [
 // ];
 
 export const skillsData = [
-    assets.python, assets.javascript, assets.react, assets.vue, assets.html, assets.css
+    { icon: assets.python, name: 'Python' },
+    { icon: assets.javascript, name: 'JavaScript' },
+    { icon: assets.react, name: 'React' },
+    { icon: assets.vue, name: 'Vue' },
+    { icon: assets.html, name: 'HTML' },
+    { icon: assets.css, name: 'CSS' },
 ];
 
 export const toolsData = [
-    assets.vscode, assets.chatgpt, assets.azure, assets.github, assets.copilot, assets.git
+    { icon: assets.vscode, name: 'VS Code' },
+    { icon: assets.chatgpt, name: 'ChatGPT' },
+    { icon: assets.azure, name: 'Azure' },
+    { icon: assets.github, name: 'GitHub' },
+    { icon: assets.copilot, name: 'Copilot' },
+    { icon: assets.git, name: 'Git' },
 ];
 
 export const summary = "        I am a senior at the University of Cincinnati, set to graduate in May 2025 with a Bachelor of Science in Computer Science. I have gained practical experience as a Software Engineer Co-op at FOX Sports, developing and maintaining UI components using JavaScript and Vue.js, and at The Cincinnati Insurance Companies, where I assisted in developing backend contract processing systems and implemented unit tests in C#. I am now looking to begin my career as a backend software engineer.";
