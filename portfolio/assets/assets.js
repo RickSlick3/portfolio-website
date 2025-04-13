@@ -67,8 +67,8 @@ export const projectData = [
     {
         title: 'Health is Wealth Dashboard',
         skills: 'Next.js, JavaScript, D3.js, Tailwind CSS',
-        problem: 'PROBLEM STATEMENT',
-        description: 'A Next.js web application to provide an interactive platform for exploring the relationship between economic status and health outcomes across U.S. counties. The dashboard allows users to navigate linked visualizations—a choropleth map, scatterplot, and histogram—that provide a multidimensional view of the data.',
+        problem: 'The CDC Atlas of Heart Disease and Stroke provides a wide range of data for individual U.S. counties. However, the data and provided visualizations are not easily interpretable or easy to use for the general public.',
+        description: 'This web app provides an interactive platform for exploring the relationship between economic status and health outcomes across U.S. counties. The dashboard allows users to navigate linked visualizations that provide a multidimensional view of the data. Interactions such as hovering and clicking allow users to highlight specific counties, observe cross-visualization relations, and gain deeper insights into the distribution of data attributes. Ultimately, the application highlights the trend that counties with the lowest incomes often experience the highest rates of health issues.',
         bgImage: '/data-in-the-usa.png',
         link: 'https://health-is-wealth-gray.vercel.app/',
         cta: 'View Web App',
@@ -76,8 +76,8 @@ export const projectData = [
     {
         title: 'Earthquake Data Visualization',
         skills: 'JavaScript, D3.js, Leaflet.js',
-        problem: 'PROBLEM STATEMENT',
-        description: 'An interactive vanilla JS web app that visualizes earthquake data using D3.js and Leaflet.js motivated by the need to make earthquake data more accessible, interpretable, and interactive for the general public.',
+        problem: 'Earthquakes occur every day across the world, creating an abundance of data, but only the most impactful ones are published in the media. This scarcity of representation makes it difficult to notice any trends. Earthquake data is also typically dowlnoaded in CSV format, which is not easily interpretable.',
+        description: 'This is an interactive vanilla JS web app that visualizes multiple years of earthquake data using D3.js and Leaflet.js motivated by the need to make earthquake data more accessible, interpretable, and interactive for the general public.',
         bgImage: '/earthquakes.png',
         link: 'https://rickslick3.github.io/earth-beneath-us/',
         cta: 'View Web App',
@@ -85,8 +85,8 @@ export const projectData = [
     {
         title: 'Customer Churn Analysis',
         skills: 'Azure, Flask, Python, Pandas, Sklearn',
-        problem: 'PROBLEM STATEMENT',
-        description: 'A Flask app that fetches data from Azure Blob Storage and uses machine learning to predict customer churn and displays results. Data for this project is hosted in an Azure SQL Server, and copied into an Azure SQL Database using a Data Factory Pipeline to be fetched by the app.',
+        problem: 'A common problem across industries is customer retainment, and how to predict churn effectively given customer data.',
+        description: 'This is a Flask app that fetches data from Azure Blob Storage and uses machine learning to predict customer churn and displays results. Data for this project is hosted in an Azure SQL Server, and copied into an Azure SQL Database using a Data Factory Pipeline to be fetched by the app.',
         bgImage: '/churn.png',
         link: 'https://github.com/RickSlick3/CustomerChurn-AzureWebApp',
         cta: 'View Source Code',
@@ -94,11 +94,11 @@ export const projectData = [
     {
         title: 'My Portfolio Website',
         skills: 'Next.js, Tailwind CSS, JavaScript',
-        problem: 'PROBLEM STATEMENT',
-        description: 'A website I built with Next.js and hosted on Vercel to share my interests, skills, experience, and projects.',
+        problem: 'This is the website you are currently on!',
+        description: 'I built my portfolio with Next.js and hosted it on Vercel to share my interests, skills, experience, and projects.',
         bgImage: '/portfolio.png',
         link: 'https://portfolio-richard-roberts.vercel.app/',
-        cta: 'You are here! View Source Code',
+        cta: 'View Source Code',
     },
 ];
 
