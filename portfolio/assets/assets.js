@@ -58,7 +58,8 @@ export const projectData = [
     {
         title: 'TheraThrive',
         skills: 'React, Django, Python, OpenAI API, PostgreSQL',
-        description: 'A React-based chat bot that delivers guided Cognitive Behavioral Therapy (CBT) sessions using the OpenAI API. The goal is to increase accessibility to mental health resources for the 280+ million people suffering from depression globally by providing an online CBT platform that allows users to engage in therapy from home, free of financial barriers and scheduling constraints.',
+        problem: 'Major Depressive Disorder is a serious mental health condition that affects approximately 280 million people globally. Depression is characterized by long-lasting feelings of sadness, hopelessness, and a loss of interest in everyday activities. Arising from a mix of biological, psychological, environmental, and social factors, depression leaves patients lacking motivation to do everyday activities and withdrawing from the people close to them.',
+        description: 'This is a React-based chat bot that delivers guided Cognitive Behavioral Therapy (CBT) sessions using the OpenAI API. The goal is to increase accessibility to mental health resources by providing an online CBT platform that allows users to engage in therapy from home, free of financial barriers and scheduling constraints.',
         bgImage: '/therathrive.png',
         link: 'https://github.com/thavishkagamage/Integrated-Therapy-Software',
         cta: 'View Source Code',
@@ -66,6 +67,7 @@ export const projectData = [
     {
         title: 'Health is Wealth Dashboard',
         skills: 'Next.js, JavaScript, D3.js, Tailwind CSS',
+        problem: 'PROBLEM STATEMENT',
         description: 'A Next.js web application to provide an interactive platform for exploring the relationship between economic status and health outcomes across U.S. counties. The dashboard allows users to navigate linked visualizations—a choropleth map, scatterplot, and histogram—that provide a multidimensional view of the data.',
         bgImage: '/data-in-the-usa.png',
         link: 'https://health-is-wealth-gray.vercel.app/',
@@ -74,6 +76,7 @@ export const projectData = [
     {
         title: 'Earthquake Data Visualization',
         skills: 'JavaScript, D3.js, Leaflet.js',
+        problem: 'PROBLEM STATEMENT',
         description: 'An interactive vanilla JS web app that visualizes earthquake data using D3.js and Leaflet.js motivated by the need to make earthquake data more accessible, interpretable, and interactive for the general public.',
         bgImage: '/earthquakes.png',
         link: 'https://rickslick3.github.io/earth-beneath-us/',
@@ -82,6 +85,7 @@ export const projectData = [
     {
         title: 'Customer Churn Analysis',
         skills: 'Azure, Flask, Python, Pandas, Sklearn',
+        problem: 'PROBLEM STATEMENT',
         description: 'A Flask app that fetches data from Azure Blob Storage and uses machine learning to predict customer churn and displays results. Data for this project is hosted in an Azure SQL Server, and copied into an Azure SQL Database using a Data Factory Pipeline to be fetched by the app.',
         bgImage: '/churn.png',
         link: 'https://github.com/RickSlick3/CustomerChurn-AzureWebApp',
@@ -90,6 +94,7 @@ export const projectData = [
     {
         title: 'My Portfolio Website',
         skills: 'Next.js, Tailwind CSS, JavaScript',
+        problem: 'PROBLEM STATEMENT',
         description: 'A website I built with Next.js and hosted on Vercel to share my interests, skills, experience, and projects.',
         bgImage: '/portfolio.png',
         link: 'https://portfolio-richard-roberts.vercel.app/',
@@ -115,14 +120,14 @@ export const toolsData = [
     { icon: assets.git, name: 'Git' },
 ];
 
-export const summary = "        I am a senior at the University of Cincinnati, set to graduate in May 2025 with a Bachelor of Science in Computer Science. I have gained practical experience as a Software Engineer Co-op at FOX Sports, developing and maintaining UI components using JavaScript and Vue.js, and at The Cincinnati Insurance Companies, where I assisted in developing backend contract processing systems and implemented unit tests in C#. I am now looking to begin my career as a backend software engineer.";
+export const summary = "        I am a senior at the University of Cincinnati, set to graduate in May 2025 with a Bachelor of Science in Computer Science. I have completed five internships, gaining practical experience as a Student Software Engineer at FOX Sports, developing and maintaining UI components using JavaScript and Vue.js, and at The Cincinnati Insurance Companies, where I assisted in developing backend contract processing systems and implemented unit tests in C#. I am now looking to begin my career as a backend software engineer, developing scalable solutions and experimenting with AI integrations.";
 
 export const educationData = [
     { 
         year: 'Aug 2020  -  May 2025',
-        school: 'The University of Cincinnati  -  Computer Science',
-        degree: 'Bachelors of Science, Computer Science (Graduation: May 2025)',
-        technologies: ['C++', 'Python', 'JavaScript', 'React', 'D3.js', 'Flask', 'Azure', 'AWS', 'GCP', 'Django', 'CUDA', 'OpenAI API', 'GitHub'],
+        school: 'University of Cincinnati CEAS  -  Computer Science Major',
+        degree: 'Bachelor of Science, Computer Science (Graduation: May 2025)',
+        technologies: ['C++', 'Python', 'JavaScript', 'React', 'Next.js', 'D3.js', 'Leaflet.js', 'Flask', 'Azure', 'AWS', 'GCP', 'Django', 'CUDA', 'OpenAI API', 'GitHub'],
     },
     { 
         year: 'Aug 2016  -  May 2020',
@@ -137,14 +142,14 @@ export const experienceData = [
         year: 'May 2024  -  Oct 2024',
         role: 'Student Software Engineer',
         company: 'FOX Sports',
-        description: "I implemented solutions for more than 20 user stories on foxsports.com and increased the site's SEO by up to 14%. I led over 15 intern meetings to enhance interns' product knowledge and understanding of other teams' responsibilities.",
+        description: "I implemented solutions for more than 20 user stories on foxsports.com and increased team output by 15%. I participated in daily scrums, ticket sizing, and sprint planning and retrospectives. I led over 15 intern meetings to help others increase their overall product knowledge and understanding of other teams' responsibilities.",
         technologies: ['Vue.js','JavaScript', 'HTML', 'CSS', 'VS Code', 'GitHub', 'Figma', 'Agile', 'Scrum', 'Jira'],
     },
     { 
         year: 'Aug 2023  -  Dec 2023',
         role: 'Student Software Engineer',
         company: 'FOX Sports',
-        description: "I improved the user experience on foxsports.com for over 20 million monthly users by implementing bug fixes and developing new views and features, resulting in a 15% increase in team output.",
+        description: "I taught myself web development through practical aplication, created small features, and implemented bug fixes on foxsports.com for over 20 million monthly users in an Agile development process.",
         technologies: ['Vue.js','JavaScript', 'HTML', 'CSS', 'VS Code', 'GitHub', 'Figma', 'Agile', 'Scrum', 'Jira'],
     },
     { 
@@ -158,14 +163,14 @@ export const experienceData = [
         year: 'May 2022  -  Aug 2022',
         role: 'Software Developer Intern',
         company: 'The Cincinnati Insurance Companies',
-        description: "I engineered database scripts to create new data columns and developed reusable SQL queries to optimize testing for insurance policy creation.",
+        description: "I engineered database scripts to create new data columns and developed reusable SQL queries to optimize and validate testing for insurance policy creation.",
         technologies: ['C#','Visual Basic', 'SQL', 'Visual Studio', 'SQL Server Management Studio', '.NET'],
     },
     { 
         year: 'Aug 2021  -  Dec 2021',
         role: 'Software Developer Intern',
         company: 'The Cincinnati Insurance Companies',
-        description: "I validated the insurance policy creation process using SQL, refactored and removed over 1,000 lines of C# code to reduce technical debt, and updated configuration files across multiple developer environments.",
+        description: "I taught myself the basics of C#, .NET, and SQL through practical application, and debugged and validated insurance policy creation workflows.",
         technologies: ['C#', 'SQL', 'Visual Studio', 'SQL Server Management Studio', '.NET'],
     },
 ];
